@@ -3,6 +3,7 @@ x, n = var('x n')
 #Where a_i are complex coeifficients, x_i is the unknown sequence, p_i are polynomial function in n, and e_i are exponential functions
 coeifficients = [] #Array of coeifficients in order i.e. a_k, a_(k-1), ... , a_0.
 polynomialFunc = [0] #Array of polynomials in order i.e. p_1, p_2, ... p_z
+#NOTE: To input a constant polynomial in n one must write c + 0*n in Sage
 exponentialFunc = [0] #Array of exponentials in order i.e. e_1, e_2, ... e_z
 initialConditions = [1, 1] #Intials conditions for the sequence i.e. x_0, x_1, ..., x_k
 #NOTE: There MUST be k initial conditions for the sequence to be defined!
