@@ -7,3 +7,4 @@ This program reduces non-homogeneous linear recurrences into homogeneous ones by
   can be reduced to a homogeneous system as the righthand side satisfies a linear homogeneous recurrence equation by means of 
   adding, scaling, and shifting the original equation. This trick that I came up with, makes these equations fairly easy to solve
   deterministically and helps to avoid the normal guessing that is required to solve these problems.
+Feel free to play around with it in a sage cell: https://sagecell.sagemath.org/ or on your computer if you already have sage installed.
